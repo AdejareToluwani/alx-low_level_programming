@@ -20,7 +20,7 @@ void times_table(void)
 			_putchar(' ');
 
 
-			prod_output = num * mult;
+			prod_output = i * mult;
 
 			if (prod_output <= 9)
 				_putchar(' ');
