@@ -1,10 +1,12 @@
+Executable File  15 lines (14 sloc)  237 Bytes
+
 #include <ctype.h>
 #include "main.h"
 
 /**
- * _isdigit - checks if an input is a digit
+ * _isdigit - checks whther an input is a digit
  * @c: the variable to be tested
- * Return: 1 ==> success , 0 ==> failure
+ * Return: 1 (succes), 0 (failure)
  */
 int _isdigit(int c)
 {
