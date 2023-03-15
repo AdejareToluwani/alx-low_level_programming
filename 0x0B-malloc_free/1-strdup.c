@@ -30,7 +30,7 @@ char *_strdup(char *str)
 		c_var[index] = str[index];
 	}
 
-	cpy[len] = '\0';
+	c_var[len] = '\0';
 
-	return (cpy);
+	return (c_var);
 }
